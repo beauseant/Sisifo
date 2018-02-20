@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+
+<SISTEMA>
+        
+        <DB>
+                <host></host>
+                <dbase></dbase>
+                <user></user>
+                <passwd></passwd>
+                <dbtype>postgres</dbtype>       
+        </DB>
+        
+        
+        <LDAP>
+                <ldaphost></ldaphost>
+                <userbind>uid = --userlogin--, ou=People, dc=tsc, dc=uc3m,dc=es</userbind>
+                <adminbind>cn=sysadmin, ou=Group,DC=tsc,DC=uc3m,DC=es</adminbind>
+                <searchbind>ou=People,DC=tsc,DC=uc3m,DC=es</searchbind>
+        </LDAP> 
+
+        <PGP>
+                <usernamepgp>www</usernamepgp>
+                <pgppath>/usr/bin/gpg</pgppath>
+                <userpgp>www</userpgp>  
+                <userpgppath>/home/</userpgppath>
+                <commentpgp>Sistema de incidencias Sisifo</commentpgp>
+                <usarpgp>true</usarpgp>
+        </PGP>
+
+        <SISIFO>
+                <limit>'5'</limit>     
+                <limit_admin>'10'</limit_admin> 
+                <dateformat>m/d/Y h:i:s a</dateformat>  
+                <safe_comments>true</safe_comments>
+                <usarpgp>true</usarpgp>         
+                <incimail>sisifo@tsc.uc3m.es</incimail>
+                <baseurl>https://www.tsc.uc3m.es/incidencias</baseurl>
+                <basepath></basepath>              
+                <smtphost></smtphost>            
+		<dirupload></dirupload>
+        </SISIFO>
+
+</SISTEMA>
+

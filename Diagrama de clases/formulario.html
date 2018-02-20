@@ -1,0 +1,3017 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<HEAD>
+	<META HTTP-EQUIV="CONTENT-TYPE" CONTENT="text/html; charset=utf-8">
+	<TITLE></TITLE>
+	<META NAME="GENERATOR" CONTENT="OpenOffice.org 1.1.3  (Linux)">
+	<META NAME="CREATED" CONTENT="20050701;11253900">
+	<META NAME="CHANGED" CONTENT="20050702;12483200">
+	<STYLE>
+	<!--
+		@page { size: 8.5in 11in; margin: 0.79in }
+		P { margin-bottom: 0.08in; text-align: justify }
+		P.western { font-size: 11pt }
+		TD P { margin-bottom: 0in }
+		TD P.western { font-size: 10pt }
+		TH P { margin-bottom: 0in }
+		TH P.western { font-size: 10pt; font-style: italic }
+		TH P.cjk { font-style: oblique }
+		TH P.ctl { font-style: oblique }
+	-->
+	</STYLE>
+</HEAD>
+<BODY LANG="es-ES" DIR="LTR">
+<P CLASS="western" ALIGN=JUSTIFY STYLE="margin-bottom: 0in; line-height: 150%">
+<FONT SIZE=2 STYLE="font-size: 11pt">	El objetivo del del presente
+documento es evaluar el que ser&aacute; el nuevo sistema para la
+gesti&oacute;n de incidencias, cuyo nombre, si nadie dice lo
+contrario, ser&aacute; Sisifo.</FONT></P>
+<P CLASS="western" ALIGN=JUSTIFY STYLE="margin-bottom: 0in; line-height: 150%">
+<FONT SIZE=2 STYLE="font-size: 11pt">	En las siguientes p&aacute;ginas
+encontrar&aacute; un ejemplo de funcionamiento que recorrer&aacute;
+las opciones t&iacute;picas, y le ir&aacute; haciendo preguntas.
+Evidentemente la respuestas deben ser lo m&aacute;s sinceras que sea
+posible, ya que se trata de lograr una aplicaci&oacute;n que pueda
+ser usada por cualquier tipo de usuario, pero sin ensa&ntilde;amiento,
+que los inform&aacute;ticos, contrariamente a la creencia popular,
+tambi&eacute;n tienen sentimientos. </FONT>
+</P>
+<P CLASS="western" ALIGN=JUSTIFY STYLE="margin-bottom: 0in; line-height: 150%">
+<FONT SIZE=2 STYLE="font-size: 11pt">	En cuanto al grupo de usuarios
+en el que se le ha sido incluido, para que haya recibido este
+documento es algo confidencial, y no ser&aacute; revelado a nadie,
+as&iacute; que nos puede dar alguna pista:</FONT></P>
+<P CLASS="western" ALIGN=JUSTIFY STYLE="margin-bottom: 0in; line-height: 150%">
+<BR>
+</P>
+<CENTER>
+	<TABLE WIDTH=95% BORDER=1 BORDERCOLOR="#c0c0c0" CELLPADDING=4 CELLSPACING=0>
+		<COL WIDTH=104*>
+		<COL WIDTH=16*>
+		<COL WIDTH=15*>
+		<COL WIDTH=15*>
+		<COL WIDTH=15*>
+		<COL WIDTH=15*>
+		<COL WIDTH=15*>
+		<COL WIDTH=15*>
+		<COL WIDTH=15*>
+		<COL WIDTH=15*>
+		<COL WIDTH=13*>
+		<THEAD>
+			<TR VALIGN=TOP>
+				<TD WIDTH=40% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>	Conocimientos
+					inform&aacute;ticos:</B></FONT></FONT></FONT></P>
+				</TD>
+				<TD WIDTH=6% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>1</B></FONT></FONT></FONT></P>
+				</TD>
+				<TD WIDTH=6% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>2</B></FONT></FONT></FONT></P>
+				</TD>
+				<TD WIDTH=6% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>3</B></FONT></FONT></FONT></P>
+				</TD>
+				<TD WIDTH=6% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>4</B></FONT></FONT></FONT></P>
+				</TD>
+				<TD WIDTH=6% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>5</B></FONT></FONT></FONT></P>
+				</TD>
+				<TD WIDTH=6% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>6</B></FONT></FONT></FONT></P>
+				</TD>
+				<TD WIDTH=6% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>7</B></FONT></FONT></FONT></P>
+				</TD>
+				<TD WIDTH=6% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>8</B></FONT></FONT></FONT></P>
+				</TD>
+				<TD WIDTH=6% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>9</B></FONT></FONT></FONT></P>
+				</TD>
+				<TD WIDTH=5% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>10</B></FONT></FONT></FONT></P>
+				</TD>
+			</TR>
+		</THEAD>
+		<TBODY>
+			<TR VALIGN=TOP>
+				<TD WIDTH=40% HEIGHT=9 SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+				<TD WIDTH=6% SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+				<TD WIDTH=6% SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+				<TD WIDTH=6% SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+				<TD WIDTH=6% SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+				<TD WIDTH=6% SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+				<TD WIDTH=6% SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+				<TD WIDTH=6% SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+				<TD WIDTH=6% SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+				<TD WIDTH=6% SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+				<TD WIDTH=5% SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+			</TR>
+		</TBODY>
+	</TABLE>
+</CENTER>
+<P CLASS="western" ALIGN=JUSTIFY STYLE="margin-bottom: 0in; line-height: 150%">
+<BR>
+</P>
+<CENTER>
+	<TABLE WIDTH=95% BORDER=1 BORDERCOLOR="#c0c0c0" CELLPADDING=4 CELLSPACING=0>
+		<COL WIDTH=104*>
+		<COL WIDTH=16*>
+		<COL WIDTH=15*>
+		<COL WIDTH=15*>
+		<COL WIDTH=15*>
+		<COL WIDTH=15*>
+		<COL WIDTH=15*>
+		<COL WIDTH=15*>
+		<COL WIDTH=15*>
+		<COL WIDTH=15*>
+		<COL WIDTH=13*>
+		<THEAD>
+			<TR VALIGN=TOP>
+				<TD WIDTH=40% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>	Uso
+					habitual del PC:</B></FONT></FONT></FONT></P>
+				</TD>
+				<TD WIDTH=6% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>1</B></FONT></FONT></FONT></P>
+				</TD>
+				<TD WIDTH=6% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>2</B></FONT></FONT></FONT></P>
+				</TD>
+				<TD WIDTH=6% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>3</B></FONT></FONT></FONT></P>
+				</TD>
+				<TD WIDTH=6% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>4</B></FONT></FONT></FONT></P>
+				</TD>
+				<TD WIDTH=6% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>5</B></FONT></FONT></FONT></P>
+				</TD>
+				<TD WIDTH=6% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>6</B></FONT></FONT></FONT></P>
+				</TD>
+				<TD WIDTH=6% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>7</B></FONT></FONT></FONT></P>
+				</TD>
+				<TD WIDTH=6% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>8</B></FONT></FONT></FONT></P>
+				</TD>
+				<TD WIDTH=6% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>9</B></FONT></FONT></FONT></P>
+				</TD>
+				<TD WIDTH=5% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>10</B></FONT></FONT></FONT></P>
+				</TD>
+			</TR>
+		</THEAD>
+		<TBODY>
+			<TR VALIGN=TOP>
+				<TD WIDTH=40% HEIGHT=9 SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+				<TD WIDTH=6% SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+				<TD WIDTH=6% SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+				<TD WIDTH=6% SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+				<TD WIDTH=6% SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+				<TD WIDTH=6% SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+				<TD WIDTH=6% SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+				<TD WIDTH=6% SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+				<TD WIDTH=6% SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+				<TD WIDTH=6% SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+				<TD WIDTH=5% SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+			</TR>
+		</TBODY>
+	</TABLE>
+</CENTER>
+<P CLASS="western" ALIGN=JUSTIFY STYLE="margin-bottom: 0in; line-height: 150%">
+<BR>
+</P>
+<P CLASS="western" ALIGN=JUSTIFY STYLE="margin-bottom: 0in; line-height: 150%">
+<BR>
+</P>
+<CENTER>
+	<TABLE WIDTH=95% BORDER=1 BORDERCOLOR="#c0c0c0" CELLPADDING=4 CELLSPACING=0>
+		<COL WIDTH=104*>
+		<COL WIDTH=16*>
+		<COL WIDTH=15*>
+		<COL WIDTH=15*>
+		<COL WIDTH=15*>
+		<COL WIDTH=15*>
+		<COL WIDTH=15*>
+		<COL WIDTH=15*>
+		<COL WIDTH=15*>
+		<COL WIDTH=15*>
+		<COL WIDTH=13*>
+		<THEAD>
+			<TR VALIGN=TOP>
+				<TD WIDTH=40% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>	Utilidad
+					de un sistema de incidencias:</B></FONT></FONT></FONT></P>
+				</TD>
+				<TD WIDTH=6% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>1</B></FONT></FONT></FONT></P>
+				</TD>
+				<TD WIDTH=6% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>2</B></FONT></FONT></FONT></P>
+				</TD>
+				<TD WIDTH=6% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>3</B></FONT></FONT></FONT></P>
+				</TD>
+				<TD WIDTH=6% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>4</B></FONT></FONT></FONT></P>
+				</TD>
+				<TD WIDTH=6% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>5</B></FONT></FONT></FONT></P>
+				</TD>
+				<TD WIDTH=6% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>6</B></FONT></FONT></FONT></P>
+				</TD>
+				<TD WIDTH=6% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>7</B></FONT></FONT></FONT></P>
+				</TD>
+				<TD WIDTH=6% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>8</B></FONT></FONT></FONT></P>
+				</TD>
+				<TD WIDTH=6% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>9</B></FONT></FONT></FONT></P>
+				</TD>
+				<TD WIDTH=5% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>10</B></FONT></FONT></FONT></P>
+				</TD>
+			</TR>
+		</THEAD>
+		<TBODY>
+			<TR VALIGN=TOP>
+				<TD WIDTH=40% HEIGHT=9 SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+				<TD WIDTH=6% SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+				<TD WIDTH=6% SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+				<TD WIDTH=6% SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+				<TD WIDTH=6% SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+				<TD WIDTH=6% SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+				<TD WIDTH=6% SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+				<TD WIDTH=6% SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+				<TD WIDTH=6% SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+				<TD WIDTH=6% SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+				<TD WIDTH=5% SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+			</TR>
+		</TBODY>
+	</TABLE>
+</CENTER>
+<P CLASS="western" ALIGN=JUSTIFY STYLE="margin-bottom: 0in; line-height: 150%">
+<BR>
+</P>
+<P CLASS="western" ALIGN=JUSTIFY STYLE="margin-bottom: 0in; line-height: 150%">
+<FONT SIZE=2 STYLE="font-size: 11pt">	&iquest;Qu&eacute; navegador
+utiliza habitualmente?</FONT></P>
+<P CLASS="western" ALIGN=JUSTIFY STYLE="margin-bottom: 0in; line-height: 150%">
+<BR>
+</P>
+<CENTER>
+	<TABLE WIDTH=333 BORDER=1 BORDERCOLOR="#c0c0c0" CELLPADDING=4 CELLSPACING=0>
+		<COL WIDTH=156>
+		<COL WIDTH=102>
+		<COL WIDTH=49>
+		<THEAD>
+			<TR VALIGN=TOP>
+				<TH WIDTH=156 BGCOLOR="#cccccc">
+					<P CLASS="western">Navegador</P>
+				</TH>
+				<TH WIDTH=102 BGCOLOR="#cccccc">
+					<P CLASS="western">Versi&oacute;n</P>
+				</TH>
+				<TH WIDTH=49 BGCOLOR="#cccccc">
+					<P CLASS="western"><BR>
+					</P>
+				</TH>
+			</TR>
+		</THEAD>
+		<TBODY>
+			<TR VALIGN=TOP>
+				<TD WIDTH=156>
+					<P CLASS="western" ALIGN=JUSTIFY>Mozilla</P>
+				</TD>
+				<TD WIDTH=102>
+					<P CLASS="western" ALIGN=JUSTIFY><BR>
+					</P>
+				</TD>
+				<TD WIDTH=49>
+					<P CLASS="western" ALIGN=JUSTIFY><BR>
+					</P>
+				</TD>
+			</TR>
+			<TR VALIGN=TOP>
+				<TD WIDTH=156>
+					<P CLASS="western" ALIGN=JUSTIFY>Netscape</P>
+				</TD>
+				<TD WIDTH=102>
+					<P CLASS="western" ALIGN=JUSTIFY><BR>
+					</P>
+				</TD>
+				<TD WIDTH=49>
+					<P CLASS="western" ALIGN=JUSTIFY><BR>
+					</P>
+				</TD>
+			</TR>
+			<TR VALIGN=TOP>
+				<TD WIDTH=156>
+					<P CLASS="western" ALIGN=JUSTIFY>Firefox</P>
+				</TD>
+				<TD WIDTH=102>
+					<P CLASS="western" ALIGN=JUSTIFY><BR>
+					</P>
+				</TD>
+				<TD WIDTH=49>
+					<P CLASS="western" ALIGN=JUSTIFY><BR>
+					</P>
+				</TD>
+			</TR>
+			<TR VALIGN=TOP>
+				<TD WIDTH=156>
+					<P CLASS="western" ALIGN=JUSTIFY>Explorer :(</P>
+				</TD>
+				<TD WIDTH=102>
+					<P CLASS="western" ALIGN=JUSTIFY><BR>
+					</P>
+				</TD>
+				<TD WIDTH=49>
+					<P CLASS="western" ALIGN=JUSTIFY><BR>
+					</P>
+				</TD>
+			</TR>
+			<TR VALIGN=TOP>
+				<TD WIDTH=156>
+					<P CLASS="western" ALIGN=JUSTIFY>Safari</P>
+				</TD>
+				<TD WIDTH=102>
+					<P CLASS="western" ALIGN=JUSTIFY><BR>
+					</P>
+				</TD>
+				<TD WIDTH=49>
+					<P CLASS="western" ALIGN=JUSTIFY><BR>
+					</P>
+				</TD>
+			</TR>
+			<TR VALIGN=TOP>
+				<TD WIDTH=156>
+					<P CLASS="western" ALIGN=JUSTIFY>Konqueror</P>
+				</TD>
+				<TD WIDTH=102>
+					<P CLASS="western" ALIGN=JUSTIFY><BR>
+					</P>
+				</TD>
+				<TD WIDTH=49>
+					<P CLASS="western" ALIGN=JUSTIFY><BR>
+					</P>
+				</TD>
+			</TR>
+			<TR VALIGN=TOP>
+				<TD WIDTH=156>
+					<P CLASS="western" ALIGN=JUSTIFY>Lynx</P>
+				</TD>
+				<TD WIDTH=102>
+					<P CLASS="western" ALIGN=JUSTIFY><BR>
+					</P>
+				</TD>
+				<TD WIDTH=49>
+					<P CLASS="western" ALIGN=JUSTIFY><BR>
+					</P>
+				</TD>
+			</TR>
+			<TR VALIGN=TOP>
+				<TD WIDTH=156>
+					<P CLASS="western" ALIGN=JUSTIFY>Otros</P>
+				</TD>
+				<TD WIDTH=102>
+					<P CLASS="western" ALIGN=JUSTIFY><BR>
+					</P>
+				</TD>
+				<TD WIDTH=49>
+					<P CLASS="western" ALIGN=JUSTIFY><BR>
+					</P>
+				</TD>
+			</TR>
+		</TBODY>
+	</TABLE>
+</CENTER>
+<P CLASS="western" ALIGN=JUSTIFY STYLE="margin-bottom: 0in; line-height: 150%">
+<BR>
+</P>
+<P CLASS="western" ALIGN=JUSTIFY STYLE="margin-bottom: 0in; line-height: 150%">
+<FONT SIZE=2 STYLE="font-size: 11pt">	El tiempo estimado para
+responder el formulario no es superior a 20 minutos.</FONT></P>
+<P CLASS="western" ALIGN=JUSTIFY STYLE="margin-bottom: 0in; line-height: 150%">
+<BR>
+</P>
+<P CLASS="western" ALIGN=JUSTIFY STYLE="margin-bottom: 0in; line-height: 150%">
+<FONT SIZE=2 STYLE="font-size: 11pt">	Muchas gracias por su
+colaboraci&oacute;n.</FONT></P>
+<P CLASS="western" ALIGN=JUSTIFY STYLE="margin-bottom: 0in; line-height: 150%">
+<BR>
+</P>
+<P ALIGN=LEFT STYLE="margin-top: 0.17in; page-break-after: avoid"><FONT FACE="Luxi Sans, sans-serif"><FONT SIZE=4>1.
+Pantalla de presentaci&oacute;n</FONT></FONT></P>
+<P CLASS="western"><BR><BR>
+</P>
+<P CLASS="western">	Vaya a la direcci&oacute;n
+<A HREF="https://www.tsc.uc3m.es/~sblanco/incidencias/new">https://www.tsc.uc3m.es/~sblanco/incidencias/new</A>
+Si, esa no ser&aacute; la ubicaci&oacute;n definitiva.</P>
+<P CLASS="western">	Ver&aacute; una pantalla de presentaci&oacute;n
+donde se le pide un nombre de usuario y una contrase&ntilde;a. Adem&aacute;s
+de encontrar una opci&oacute;n, donde se explica en que consiste la
+aplicaci&oacute;n, y una licencia con las condiciones de uso.</P>
+<P CLASS="western"><BR><BR>
+</P>
+<P CLASS="western">	Opine sobre las siguientes cuestiones.</P>
+<P CLASS="western"><BR><BR>
+</P>
+<CENTER>
+	<TABLE WIDTH=95% BORDER=1 BORDERCOLOR="#c0c0c0" CELLPADDING=4 CELLSPACING=0>
+		<COL WIDTH=104*>
+		<COL WIDTH=16*>
+		<COL WIDTH=15*>
+		<COL WIDTH=15*>
+		<COL WIDTH=15*>
+		<COL WIDTH=15*>
+		<COL WIDTH=15*>
+		<COL WIDTH=15*>
+		<COL WIDTH=15*>
+		<COL WIDTH=15*>
+		<COL WIDTH=13*>
+		<THEAD>
+			<TR VALIGN=TOP>
+				<TD WIDTH=40% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>	Presentaci&oacute;n
+					de la pantalla:</B></FONT></FONT></FONT></P>
+				</TD>
+				<TD WIDTH=6% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>1</B></FONT></FONT></FONT></P>
+				</TD>
+				<TD WIDTH=6% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>2</B></FONT></FONT></FONT></P>
+				</TD>
+				<TD WIDTH=6% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>3</B></FONT></FONT></FONT></P>
+				</TD>
+				<TD WIDTH=6% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>4</B></FONT></FONT></FONT></P>
+				</TD>
+				<TD WIDTH=6% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>5</B></FONT></FONT></FONT></P>
+				</TD>
+				<TD WIDTH=6% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>6</B></FONT></FONT></FONT></P>
+				</TD>
+				<TD WIDTH=6% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>7</B></FONT></FONT></FONT></P>
+				</TD>
+				<TD WIDTH=6% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>8</B></FONT></FONT></FONT></P>
+				</TD>
+				<TD WIDTH=6% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>9</B></FONT></FONT></FONT></P>
+				</TD>
+				<TD WIDTH=5% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>10</B></FONT></FONT></FONT></P>
+				</TD>
+			</TR>
+		</THEAD>
+		<TBODY>
+			<TR VALIGN=TOP>
+				<TD WIDTH=40% HEIGHT=9 SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+				<TD WIDTH=6% SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+				<TD WIDTH=6% SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+				<TD WIDTH=6% SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+				<TD WIDTH=6% SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+				<TD WIDTH=6% SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+				<TD WIDTH=6% SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+				<TD WIDTH=6% SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+				<TD WIDTH=6% SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+				<TD WIDTH=6% SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+				<TD WIDTH=5% SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+			</TR>
+		</TBODY>
+	</TABLE>
+</CENTER>
+<P CLASS="western"><BR><BR>
+</P>
+<CENTER>
+	<TABLE WIDTH=95% BORDER=1 BORDERCOLOR="#c0c0c0" CELLPADDING=4 CELLSPACING=0>
+		<COL WIDTH=104*>
+		<COL WIDTH=16*>
+		<COL WIDTH=15*>
+		<COL WIDTH=15*>
+		<COL WIDTH=15*>
+		<COL WIDTH=15*>
+		<COL WIDTH=15*>
+		<COL WIDTH=15*>
+		<COL WIDTH=15*>
+		<COL WIDTH=15*>
+		<COL WIDTH=13*>
+		<THEAD>
+			<TR VALIGN=TOP>
+				<TD WIDTH=40% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>Facilidad
+					de uso:</B></FONT></FONT></FONT></P>
+				</TD>
+				<TD WIDTH=6% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>1</B></FONT></FONT></FONT></P>
+				</TD>
+				<TD WIDTH=6% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>2</B></FONT></FONT></FONT></P>
+				</TD>
+				<TD WIDTH=6% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>3</B></FONT></FONT></FONT></P>
+				</TD>
+				<TD WIDTH=6% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>4</B></FONT></FONT></FONT></P>
+				</TD>
+				<TD WIDTH=6% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>5</B></FONT></FONT></FONT></P>
+				</TD>
+				<TD WIDTH=6% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>6</B></FONT></FONT></FONT></P>
+				</TD>
+				<TD WIDTH=6% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>7</B></FONT></FONT></FONT></P>
+				</TD>
+				<TD WIDTH=6% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>8</B></FONT></FONT></FONT></P>
+				</TD>
+				<TD WIDTH=6% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>9</B></FONT></FONT></FONT></P>
+				</TD>
+				<TD WIDTH=5% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>10</B></FONT></FONT></FONT></P>
+				</TD>
+			</TR>
+		</THEAD>
+		<TBODY>
+			<TR VALIGN=TOP>
+				<TD WIDTH=40% HEIGHT=9 SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+				<TD WIDTH=6% SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+				<TD WIDTH=6% SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+				<TD WIDTH=6% SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+				<TD WIDTH=6% SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+				<TD WIDTH=6% SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+				<TD WIDTH=6% SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+				<TD WIDTH=6% SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+				<TD WIDTH=6% SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+				<TD WIDTH=6% SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+				<TD WIDTH=5% SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+			</TR>
+		</TBODY>
+	</TABLE>
+</CENTER>
+<P CLASS="western" ALIGN=LEFT STYLE="margin-bottom: 0in"><BR>
+</P>
+<CENTER>
+	<TABLE WIDTH=95% BORDER=1 BORDERCOLOR="#c0c0c0" CELLPADDING=4 CELLSPACING=0>
+		<COL WIDTH=104*>
+		<COL WIDTH=152*>
+		<THEAD>
+			<TR VALIGN=TOP>
+				<TD WIDTH=40% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>&iquest;Alg&uacute;n
+					comentario?</B></FONT></FONT></FONT></P>
+				</TD>
+				<TD WIDTH=60% BGCOLOR="#e6e6ff" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+			</TR>
+		</THEAD>
+	</TABLE>
+</CENTER>
+<P CLASS="western" ALIGN=LEFT STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" ALIGN=LEFT STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western">	Bien, ahora entre en la aplicaci&oacute;n con el
+nombre de usuario y la contrase&ntilde;a que usa normalmente en su
+correo electr&oacute;nico.</P>
+<P CLASS="western" ALIGN=LEFT STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" ALIGN=LEFT STYLE="margin-bottom: 0in; page-break-before: always">
+<BR>
+</P>
+<P ALIGN=LEFT STYLE="margin-top: 0.17in; page-break-after: avoid"><FONT FACE="Luxi Sans, sans-serif"><FONT SIZE=4>2.
+Pantalla principal</FONT></FONT></P>
+<P CLASS="western"><BR><BR>
+</P>
+<P CLASS="western">	Perfecto, ya estamos en la pantalla principal de
+la aplicaci&oacute;n. En ella puede ver un men&uacute; en la parte
+superior con diversas opciones, y otro en la parte derecha. Adem&aacute;s
+deber&aacute;n mostrarse dos mensajes en la parte principal.</P>
+<P CLASS="western">	Opine, por favor, lo que cree que significan
+dichos mensajes. No haga ninguna prueba, simplemente diga lo primero
+que le sugieren.</P>
+<P CLASS="western"><BR><BR>
+</P>
+<CENTER>
+	<TABLE WIDTH=95% BORDER=1 BORDERCOLOR="#c0c0c0" CELLPADDING=4 CELLSPACING=0>
+		<COL WIDTH=127*>
+		<COL WIDTH=129*>
+		<THEAD>
+			<TR VALIGN=TOP>
+				<TD WIDTH=50% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>Mostrando
+					incidencias de cualquier tipo:</B></FONT></FONT></FONT></P>
+				</TD>
+				<TD WIDTH=50% BGCOLOR="#e6e6ff" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+			</TR>
+		</THEAD>
+	</TABLE>
+</CENTER>
+<P CLASS="western" ALIGN=LEFT STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" ALIGN=LEFT STYLE="margin-bottom: 0in"><BR>
+</P>
+<CENTER>
+	<TABLE WIDTH=95% BORDER=1 BORDERCOLOR="#c0c0c0" CELLPADDING=4 CELLSPACING=0>
+		<COL WIDTH=164*>
+		<COL WIDTH=92*>
+		<THEAD>
+			<TR VALIGN=TOP>
+				<TD WIDTH=64% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>Listado
+					de las ultimas 05 incidencias enviadas al sistema</B></FONT></FONT></FONT></P>
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>Usted
+					aun no ha enviado ninguna incidencia al sistema</B></FONT></FONT></FONT></P>
+				</TD>
+				<TD WIDTH=36% BGCOLOR="#e6e6ff" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+			</TR>
+		</THEAD>
+	</TABLE>
+</CENTER>
+<P CLASS="western" ALIGN=LEFT STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" ALIGN=LEFT STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" ALIGN=LEFT STYLE="margin-bottom: 0in"><FONT SIZE=3>	Si
+la respuesta a la primera pregunta ha sido que por defecto se
+muestran todas las incidencias, ya est&eacute;n resultas,
+paradas,hardware, software... Y la respuesta a la segunda es que se
+le mostrar&iacute;an las &uacute;ltimas cinco incidencias si las
+hubiese, algo que no puede ser porque no hay incidencias en el
+sistema. Se ha ganado usted el primer premio. Ahora sigamos.</FONT></P>
+<P CLASS="western" ALIGN=LEFT STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" ALIGN=LEFT STYLE="margin-bottom: 0in"><FONT SIZE=3>	&iquest;Qu&eacute;
+opini&oacute;n le merece la pantalla principal?</FONT></P>
+<P CLASS="western" ALIGN=LEFT STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" ALIGN=LEFT STYLE="margin-bottom: 0in"><BR>
+</P>
+<CENTER>
+	<TABLE WIDTH=95% BORDER=1 BORDERCOLOR="#c0c0c0" CELLPADDING=4 CELLSPACING=0>
+		<COL WIDTH=104*>
+		<COL WIDTH=16*>
+		<COL WIDTH=15*>
+		<COL WIDTH=15*>
+		<COL WIDTH=15*>
+		<COL WIDTH=15*>
+		<COL WIDTH=15*>
+		<COL WIDTH=15*>
+		<COL WIDTH=15*>
+		<COL WIDTH=15*>
+		<COL WIDTH=13*>
+		<THEAD>
+			<TR VALIGN=TOP>
+				<TD WIDTH=40% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>	Presentaci&oacute;n
+					de la pantalla:</B></FONT></FONT></FONT></P>
+				</TD>
+				<TD WIDTH=6% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>1</B></FONT></FONT></FONT></P>
+				</TD>
+				<TD WIDTH=6% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>2</B></FONT></FONT></FONT></P>
+				</TD>
+				<TD WIDTH=6% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>3</B></FONT></FONT></FONT></P>
+				</TD>
+				<TD WIDTH=6% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>4</B></FONT></FONT></FONT></P>
+				</TD>
+				<TD WIDTH=6% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>5</B></FONT></FONT></FONT></P>
+				</TD>
+				<TD WIDTH=6% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>6</B></FONT></FONT></FONT></P>
+				</TD>
+				<TD WIDTH=6% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>7</B></FONT></FONT></FONT></P>
+				</TD>
+				<TD WIDTH=6% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>8</B></FONT></FONT></FONT></P>
+				</TD>
+				<TD WIDTH=6% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>9</B></FONT></FONT></FONT></P>
+				</TD>
+				<TD WIDTH=5% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>10</B></FONT></FONT></FONT></P>
+				</TD>
+			</TR>
+		</THEAD>
+		<TBODY>
+			<TR VALIGN=TOP>
+				<TD WIDTH=40% HEIGHT=9 SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+				<TD WIDTH=6% SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+				<TD WIDTH=6% SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+				<TD WIDTH=6% SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+				<TD WIDTH=6% SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+				<TD WIDTH=6% SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+				<TD WIDTH=6% SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+				<TD WIDTH=6% SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+				<TD WIDTH=6% SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+				<TD WIDTH=6% SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+				<TD WIDTH=5% SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+			</TR>
+		</TBODY>
+	</TABLE>
+</CENTER>
+<P CLASS="western" ALIGN=LEFT STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" ALIGN=LEFT STYLE="margin-bottom: 0in"><BR>
+</P>
+<CENTER>
+	<TABLE WIDTH=95% BORDER=1 BORDERCOLOR="#c0c0c0" CELLPADDING=4 CELLSPACING=0>
+		<COL WIDTH=104*>
+		<COL WIDTH=16*>
+		<COL WIDTH=15*>
+		<COL WIDTH=15*>
+		<COL WIDTH=15*>
+		<COL WIDTH=15*>
+		<COL WIDTH=15*>
+		<COL WIDTH=15*>
+		<COL WIDTH=15*>
+		<COL WIDTH=15*>
+		<COL WIDTH=13*>
+		<THEAD>
+			<TR VALIGN=TOP>
+				<TD WIDTH=40% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>Facilidad
+					de uso:</B></FONT></FONT></FONT></P>
+				</TD>
+				<TD WIDTH=6% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>1</B></FONT></FONT></FONT></P>
+				</TD>
+				<TD WIDTH=6% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>2</B></FONT></FONT></FONT></P>
+				</TD>
+				<TD WIDTH=6% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>3</B></FONT></FONT></FONT></P>
+				</TD>
+				<TD WIDTH=6% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>4</B></FONT></FONT></FONT></P>
+				</TD>
+				<TD WIDTH=6% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>5</B></FONT></FONT></FONT></P>
+				</TD>
+				<TD WIDTH=6% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>6</B></FONT></FONT></FONT></P>
+				</TD>
+				<TD WIDTH=6% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>7</B></FONT></FONT></FONT></P>
+				</TD>
+				<TD WIDTH=6% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>8</B></FONT></FONT></FONT></P>
+				</TD>
+				<TD WIDTH=6% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>9</B></FONT></FONT></FONT></P>
+				</TD>
+				<TD WIDTH=5% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>10</B></FONT></FONT></FONT></P>
+				</TD>
+			</TR>
+		</THEAD>
+		<TBODY>
+			<TR VALIGN=TOP>
+				<TD WIDTH=40% HEIGHT=9 SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+				<TD WIDTH=6% SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+				<TD WIDTH=6% SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+				<TD WIDTH=6% SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+				<TD WIDTH=6% SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+				<TD WIDTH=6% SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+				<TD WIDTH=6% SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+				<TD WIDTH=6% SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+				<TD WIDTH=6% SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+				<TD WIDTH=6% SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+				<TD WIDTH=5% SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+			</TR>
+		</TBODY>
+	</TABLE>
+</CENTER>
+<P CLASS="western" ALIGN=LEFT STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" ALIGN=LEFT STYLE="margin-bottom: 0in"><BR>
+</P>
+<CENTER>
+	<TABLE WIDTH=95% BORDER=1 BORDERCOLOR="#c0c0c0" CELLPADDING=4 CELLSPACING=0>
+		<COL WIDTH=104*>
+		<COL WIDTH=16*>
+		<COL WIDTH=15*>
+		<COL WIDTH=15*>
+		<COL WIDTH=15*>
+		<COL WIDTH=15*>
+		<COL WIDTH=15*>
+		<COL WIDTH=15*>
+		<COL WIDTH=15*>
+		<COL WIDTH=15*>
+		<COL WIDTH=13*>
+		<THEAD>
+			<TR VALIGN=TOP>
+				<TD WIDTH=40% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>Claridad
+					de las opciones:</B></FONT></FONT></FONT></P>
+				</TD>
+				<TD WIDTH=6% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>1</B></FONT></FONT></FONT></P>
+				</TD>
+				<TD WIDTH=6% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>2</B></FONT></FONT></FONT></P>
+				</TD>
+				<TD WIDTH=6% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>3</B></FONT></FONT></FONT></P>
+				</TD>
+				<TD WIDTH=6% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>4</B></FONT></FONT></FONT></P>
+				</TD>
+				<TD WIDTH=6% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>5</B></FONT></FONT></FONT></P>
+				</TD>
+				<TD WIDTH=6% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>6</B></FONT></FONT></FONT></P>
+				</TD>
+				<TD WIDTH=6% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>7</B></FONT></FONT></FONT></P>
+				</TD>
+				<TD WIDTH=6% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>8</B></FONT></FONT></FONT></P>
+				</TD>
+				<TD WIDTH=6% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>9</B></FONT></FONT></FONT></P>
+				</TD>
+				<TD WIDTH=5% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>10</B></FONT></FONT></FONT></P>
+				</TD>
+			</TR>
+		</THEAD>
+		<TBODY>
+			<TR VALIGN=TOP>
+				<TD WIDTH=40% HEIGHT=9 SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+				<TD WIDTH=6% SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+				<TD WIDTH=6% SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+				<TD WIDTH=6% SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+				<TD WIDTH=6% SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+				<TD WIDTH=6% SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+				<TD WIDTH=6% SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+				<TD WIDTH=6% SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+				<TD WIDTH=6% SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+				<TD WIDTH=6% SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+				<TD WIDTH=5% SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+			</TR>
+		</TBODY>
+	</TABLE>
+</CENTER>
+<P CLASS="western" ALIGN=LEFT STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" ALIGN=LEFT STYLE="margin-bottom: 0in"><BR>
+</P>
+<CENTER>
+	<TABLE WIDTH=95% BORDER=1 BORDERCOLOR="#c0c0c0" CELLPADDING=4 CELLSPACING=0>
+		<COL WIDTH=104*>
+		<COL WIDTH=152*>
+		<THEAD>
+			<TR VALIGN=TOP>
+				<TD WIDTH=40% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER><B><SPAN STYLE="text-decoration: none"><SPAN STYLE="font-style: normal"><FONT SIZE=2><FONT FACE="Times, serif"><FONT COLOR="#000000">&iquest;Alg&uacute;n
+					comentario?</FONT></FONT></FONT></SPAN></SPAN></B></P>
+				</TD>
+				<TD WIDTH=60% BGCOLOR="#e6e6ff" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER><BR>
+					</P>
+				</TD>
+			</TR>
+		</THEAD>
+	</TABLE>
+</CENTER>
+<P CLASS="western" ALIGN=LEFT STYLE="margin-bottom: 0in"><BR>
+</P>
+<P ALIGN=LEFT STYLE="margin-top: 0.17in; page-break-after: avoid"><FONT FACE="Luxi Sans, sans-serif"><FONT SIZE=4>3.
+Sistema de ayuda</FONT></FONT></P>
+<P CLASS="western">	Habr&aacute; observado en la algunas de las
+opciones un horrible icono con una interrogaci&oacute;n, ese es el
+sistema de ayuda en l&iacute;nea de la aplicaci&oacute;n. Pulse sobre
+algunos de esos iconos y responda, por favor, a las siguientes
+preguntas.</P>
+<P CLASS="western"><BR><BR>
+</P>
+<CENTER>
+	<TABLE WIDTH=95% BORDER=1 BORDERCOLOR="#c0c0c0" CELLPADDING=4 CELLSPACING=0>
+		<COL WIDTH=104*>
+		<COL WIDTH=16*>
+		<COL WIDTH=15*>
+		<COL WIDTH=15*>
+		<COL WIDTH=15*>
+		<COL WIDTH=15*>
+		<COL WIDTH=15*>
+		<COL WIDTH=15*>
+		<COL WIDTH=15*>
+		<COL WIDTH=15*>
+		<COL WIDTH=13*>
+		<THEAD>
+			<TR VALIGN=TOP>
+				<TD WIDTH=40% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>	Presentaci&oacute;n
+					de la pantalla:</B></FONT></FONT></FONT></P>
+				</TD>
+				<TD WIDTH=6% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>1</B></FONT></FONT></FONT></P>
+				</TD>
+				<TD WIDTH=6% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>2</B></FONT></FONT></FONT></P>
+				</TD>
+				<TD WIDTH=6% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>3</B></FONT></FONT></FONT></P>
+				</TD>
+				<TD WIDTH=6% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>4</B></FONT></FONT></FONT></P>
+				</TD>
+				<TD WIDTH=6% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>5</B></FONT></FONT></FONT></P>
+				</TD>
+				<TD WIDTH=6% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>6</B></FONT></FONT></FONT></P>
+				</TD>
+				<TD WIDTH=6% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>7</B></FONT></FONT></FONT></P>
+				</TD>
+				<TD WIDTH=6% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>8</B></FONT></FONT></FONT></P>
+				</TD>
+				<TD WIDTH=6% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>9</B></FONT></FONT></FONT></P>
+				</TD>
+				<TD WIDTH=5% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>10</B></FONT></FONT></FONT></P>
+				</TD>
+			</TR>
+		</THEAD>
+		<TBODY>
+			<TR VALIGN=TOP>
+				<TD WIDTH=40% HEIGHT=9 SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+				<TD WIDTH=6% SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+				<TD WIDTH=6% SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+				<TD WIDTH=6% SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+				<TD WIDTH=6% SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+				<TD WIDTH=6% SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+				<TD WIDTH=6% SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+				<TD WIDTH=6% SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+				<TD WIDTH=6% SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+				<TD WIDTH=6% SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+				<TD WIDTH=5% SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+			</TR>
+		</TBODY>
+	</TABLE>
+</CENTER>
+<P CLASS="western" ALIGN=LEFT STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" ALIGN=LEFT STYLE="margin-bottom: 0in"><BR>
+</P>
+<CENTER>
+	<TABLE WIDTH=95% BORDER=1 BORDERCOLOR="#c0c0c0" CELLPADDING=4 CELLSPACING=0>
+		<COL WIDTH=104*>
+		<COL WIDTH=16*>
+		<COL WIDTH=15*>
+		<COL WIDTH=15*>
+		<COL WIDTH=15*>
+		<COL WIDTH=15*>
+		<COL WIDTH=15*>
+		<COL WIDTH=15*>
+		<COL WIDTH=15*>
+		<COL WIDTH=15*>
+		<COL WIDTH=13*>
+		<THEAD>
+			<TR VALIGN=TOP>
+				<TD WIDTH=40% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>Claridad
+					de la ayuda prestada:</B></FONT></FONT></FONT></P>
+				</TD>
+				<TD WIDTH=6% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>1</B></FONT></FONT></FONT></P>
+				</TD>
+				<TD WIDTH=6% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>2</B></FONT></FONT></FONT></P>
+				</TD>
+				<TD WIDTH=6% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>3</B></FONT></FONT></FONT></P>
+				</TD>
+				<TD WIDTH=6% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>4</B></FONT></FONT></FONT></P>
+				</TD>
+				<TD WIDTH=6% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>5</B></FONT></FONT></FONT></P>
+				</TD>
+				<TD WIDTH=6% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>6</B></FONT></FONT></FONT></P>
+				</TD>
+				<TD WIDTH=6% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>7</B></FONT></FONT></FONT></P>
+				</TD>
+				<TD WIDTH=6% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>8</B></FONT></FONT></FONT></P>
+				</TD>
+				<TD WIDTH=6% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>9</B></FONT></FONT></FONT></P>
+				</TD>
+				<TD WIDTH=5% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>10</B></FONT></FONT></FONT></P>
+				</TD>
+			</TR>
+		</THEAD>
+		<TBODY>
+			<TR VALIGN=TOP>
+				<TD WIDTH=40% HEIGHT=9 SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+				<TD WIDTH=6% SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+				<TD WIDTH=6% SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+				<TD WIDTH=6% SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+				<TD WIDTH=6% SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+				<TD WIDTH=6% SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+				<TD WIDTH=6% SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+				<TD WIDTH=6% SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+				<TD WIDTH=6% SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+				<TD WIDTH=6% SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+				<TD WIDTH=5% SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+			</TR>
+		</TBODY>
+	</TABLE>
+</CENTER>
+<P CLASS="western" ALIGN=LEFT STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" ALIGN=LEFT STYLE="margin-bottom: 0in"><BR>
+</P>
+<CENTER>
+	<TABLE WIDTH=95% BORDER=1 BORDERCOLOR="#c0c0c0" CELLPADDING=4 CELLSPACING=0>
+		<COL WIDTH=104*>
+		<COL WIDTH=152*>
+		<THEAD>
+			<TR VALIGN=TOP>
+				<TD WIDTH=40% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>&iquest;Alg&uacute;n
+					comentario?</B></FONT></FONT></FONT></P>
+				</TD>
+				<TD WIDTH=60% BGCOLOR="#e6e6ff" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+			</TR>
+		</THEAD>
+	</TABLE>
+</CENTER>
+<P CLASS="western" ALIGN=LEFT STYLE="margin-bottom: 0in"><BR>
+</P>
+<P ALIGN=LEFT STYLE="margin-top: 0.17in; page-break-after: avoid"><FONT FACE="Luxi Sans, sans-serif"><FONT SIZE=4>4.
+Enviando incidencias</FONT></FONT></P>
+<P CLASS="western"><BR><BR>
+</P>
+<P CLASS="western">	Vamos ahora a intentar enviar una incidencia de
+tipo hardware. Como puede observar hay una opci&oacute;n en el men&uacute;
+de la izquierda que nos permite hacerlo. Al pulsar dicha esa opci&oacute;n
+aparece la pantalla para enviar una incidencia hardware. En dicha
+pantalla podr&aacute; observar los diversos campos que se deben
+rellenar. 
+</P>
+<P CLASS="western"><BR><BR>
+</P>
+<CENTER>
+	<TABLE WIDTH=95% BORDER=1 BORDERCOLOR="#c0c0c0" CELLPADDING=4 CELLSPACING=0>
+		<COL WIDTH=104*>
+		<COL WIDTH=16*>
+		<COL WIDTH=15*>
+		<COL WIDTH=15*>
+		<COL WIDTH=15*>
+		<COL WIDTH=15*>
+		<COL WIDTH=15*>
+		<COL WIDTH=15*>
+		<COL WIDTH=15*>
+		<COL WIDTH=15*>
+		<COL WIDTH=13*>
+		<THEAD>
+			<TR VALIGN=TOP>
+				<TD WIDTH=40% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>&iquest;Entiende
+					la informaci&oacute;n que se le solicita en la pantalla?</B></FONT></FONT></FONT></P>
+				</TD>
+				<TD WIDTH=6% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>1</B></FONT></FONT></FONT></P>
+				</TD>
+				<TD WIDTH=6% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>2</B></FONT></FONT></FONT></P>
+				</TD>
+				<TD WIDTH=6% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>3</B></FONT></FONT></FONT></P>
+				</TD>
+				<TD WIDTH=6% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>4</B></FONT></FONT></FONT></P>
+				</TD>
+				<TD WIDTH=6% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>5</B></FONT></FONT></FONT></P>
+				</TD>
+				<TD WIDTH=6% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>6</B></FONT></FONT></FONT></P>
+				</TD>
+				<TD WIDTH=6% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>7</B></FONT></FONT></FONT></P>
+				</TD>
+				<TD WIDTH=6% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>8</B></FONT></FONT></FONT></P>
+				</TD>
+				<TD WIDTH=6% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>9</B></FONT></FONT></FONT></P>
+				</TD>
+				<TD WIDTH=5% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>10</B></FONT></FONT></FONT></P>
+				</TD>
+			</TR>
+		</THEAD>
+		<TBODY>
+			<TR VALIGN=TOP>
+				<TD WIDTH=40% HEIGHT=9 SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+				<TD WIDTH=6% SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+				<TD WIDTH=6% SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+				<TD WIDTH=6% SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+				<TD WIDTH=6% SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+				<TD WIDTH=6% SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+				<TD WIDTH=6% SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+				<TD WIDTH=6% SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+				<TD WIDTH=6% SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+				<TD WIDTH=6% SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+				<TD WIDTH=5% SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+			</TR>
+		</TBODY>
+	</TABLE>
+</CENTER>
+<P CLASS="western" ALIGN=LEFT STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western">	Observe ahora en la parte izquierda una lista con
+las diversas m&aacute;quinas a las que se puede referir la
+incidencia. En ella usted puede elegir una m&aacute;quina concreta, o
+bien pulsar sobre el bot&oacute;n para a&ntilde;adir una m&aacute;quina
+que no se encuentra en el listado.</P>
+<P CLASS="western"><BR><BR>
+</P>
+<CENTER>
+	<TABLE WIDTH=95% BORDER=1 BORDERCOLOR="#c0c0c0" CELLPADDING=4 CELLSPACING=0>
+		<COL WIDTH=104*>
+		<COL WIDTH=16*>
+		<COL WIDTH=15*>
+		<COL WIDTH=15*>
+		<COL WIDTH=15*>
+		<COL WIDTH=15*>
+		<COL WIDTH=15*>
+		<COL WIDTH=15*>
+		<COL WIDTH=15*>
+		<COL WIDTH=15*>
+		<COL WIDTH=13*>
+		<THEAD>
+			<TR VALIGN=TOP>
+				<TD WIDTH=40% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>&iquest;Es
+					comprensible esta forma de solicitar los datos de la maquina?</B></FONT></FONT></FONT></P>
+				</TD>
+				<TD WIDTH=6% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>1</B></FONT></FONT></FONT></P>
+				</TD>
+				<TD WIDTH=6% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>2</B></FONT></FONT></FONT></P>
+				</TD>
+				<TD WIDTH=6% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>3</B></FONT></FONT></FONT></P>
+				</TD>
+				<TD WIDTH=6% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>4</B></FONT></FONT></FONT></P>
+				</TD>
+				<TD WIDTH=6% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>5</B></FONT></FONT></FONT></P>
+				</TD>
+				<TD WIDTH=6% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>6</B></FONT></FONT></FONT></P>
+				</TD>
+				<TD WIDTH=6% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>7</B></FONT></FONT></FONT></P>
+				</TD>
+				<TD WIDTH=6% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>8</B></FONT></FONT></FONT></P>
+				</TD>
+				<TD WIDTH=6% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>9</B></FONT></FONT></FONT></P>
+				</TD>
+				<TD WIDTH=5% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>10</B></FONT></FONT></FONT></P>
+				</TD>
+			</TR>
+		</THEAD>
+		<TBODY>
+			<TR VALIGN=TOP>
+				<TD WIDTH=40% HEIGHT=9 SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+				<TD WIDTH=6% SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+				<TD WIDTH=6% SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+				<TD WIDTH=6% SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+				<TD WIDTH=6% SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+				<TD WIDTH=6% SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+				<TD WIDTH=6% SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+				<TD WIDTH=6% SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+				<TD WIDTH=6% SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+				<TD WIDTH=6% SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+				<TD WIDTH=5% SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+			</TR>
+		</TBODY>
+	</TABLE>
+</CENTER>
+<P CLASS="western">	</P>
+<CENTER>
+	<TABLE WIDTH=95% BORDER=1 BORDERCOLOR="#c0c0c0" CELLPADDING=4 CELLSPACING=0>
+		<COL WIDTH=104*>
+		<COL WIDTH=152*>
+		<THEAD>
+			<TR VALIGN=TOP>
+				<TD WIDTH=40% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>&iquest;Alg&uacute;n
+					comentario?</B></FONT></FONT></FONT></P>
+				</TD>
+				<TD WIDTH=60% BGCOLOR="#e6e6ff" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+			</TR>
+		</THEAD>
+	</TABLE>
+</CENTER>
+<P CLASS="western" ALIGN=LEFT STYLE="margin-bottom: 0in"><BR>
+</P>
+<P ALIGN=LEFT STYLE="margin-top: 0.17in; page-break-after: avoid"><FONT FACE="Luxi Sans, sans-serif"><FONT SIZE=4>5.
+Enviando mensajes y otras opciones</FONT></FONT></P>
+<P CLASS="western"><BR><BR>
+</P>
+<P CLASS="western">	Termine, por favor de enviar la incidencia de
+tipo hardware, y vuelva al men&uacute; principal. Ver&aacute; que ha
+aparecido la nueva incidencia en la pantalla principal.</P>
+<P CLASS="western"><BR><BR>
+</P>
+<P CLASS="western">	Como puede observar, aparece el texto que ha
+introducido usted, y dos iconos en la parte inferior, uno para ver
+los detalles concretos de la incidencia, y otro para enviar mensajes
+a las personas que deben resolver las incidencias. Opine sobre estas
+dos opciones.</P>
+<P CLASS="western"><BR><BR>
+</P>
+<P CLASS="western" ALIGN=LEFT STYLE="margin-bottom: 0in"><BR>
+</P>
+<CENTER>
+	<TABLE WIDTH=95% BORDER=1 BORDERCOLOR="#c0c0c0" CELLPADDING=4 CELLSPACING=0>
+		<COL WIDTH=104*>
+		<COL WIDTH=16*>
+		<COL WIDTH=15*>
+		<COL WIDTH=15*>
+		<COL WIDTH=15*>
+		<COL WIDTH=15*>
+		<COL WIDTH=15*>
+		<COL WIDTH=15*>
+		<COL WIDTH=15*>
+		<COL WIDTH=15*>
+		<COL WIDTH=13*>
+		<THEAD>
+			<TR VALIGN=TOP>
+				<TD WIDTH=40% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>	Presentaci&oacute;n
+					de la pantalla:</B></FONT></FONT></FONT></P>
+				</TD>
+				<TD WIDTH=6% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>1</B></FONT></FONT></FONT></P>
+				</TD>
+				<TD WIDTH=6% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>2</B></FONT></FONT></FONT></P>
+				</TD>
+				<TD WIDTH=6% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>3</B></FONT></FONT></FONT></P>
+				</TD>
+				<TD WIDTH=6% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>4</B></FONT></FONT></FONT></P>
+				</TD>
+				<TD WIDTH=6% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>5</B></FONT></FONT></FONT></P>
+				</TD>
+				<TD WIDTH=6% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>6</B></FONT></FONT></FONT></P>
+				</TD>
+				<TD WIDTH=6% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>7</B></FONT></FONT></FONT></P>
+				</TD>
+				<TD WIDTH=6% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>8</B></FONT></FONT></FONT></P>
+				</TD>
+				<TD WIDTH=6% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>9</B></FONT></FONT></FONT></P>
+				</TD>
+				<TD WIDTH=5% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>10</B></FONT></FONT></FONT></P>
+				</TD>
+			</TR>
+		</THEAD>
+		<TBODY>
+			<TR VALIGN=TOP>
+				<TD WIDTH=40% HEIGHT=9 SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+				<TD WIDTH=6% SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+				<TD WIDTH=6% SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+				<TD WIDTH=6% SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+				<TD WIDTH=6% SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+				<TD WIDTH=6% SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+				<TD WIDTH=6% SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+				<TD WIDTH=6% SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+				<TD WIDTH=6% SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+				<TD WIDTH=6% SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+				<TD WIDTH=5% SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+			</TR>
+		</TBODY>
+	</TABLE>
+</CENTER>
+<P CLASS="western" ALIGN=LEFT STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" ALIGN=LEFT STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" ALIGN=LEFT STYLE="margin-bottom: 0in"><BR>
+</P>
+<CENTER>
+	<TABLE WIDTH=95% BORDER=1 BORDERCOLOR="#c0c0c0" CELLPADDING=4 CELLSPACING=0>
+		<COL WIDTH=104*>
+		<COL WIDTH=16*>
+		<COL WIDTH=15*>
+		<COL WIDTH=15*>
+		<COL WIDTH=15*>
+		<COL WIDTH=15*>
+		<COL WIDTH=15*>
+		<COL WIDTH=15*>
+		<COL WIDTH=15*>
+		<COL WIDTH=15*>
+		<COL WIDTH=13*>
+		<THEAD>
+			<TR VALIGN=TOP>
+				<TD WIDTH=40% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>Facilidad
+					de uso:</B></FONT></FONT></FONT></P>
+				</TD>
+				<TD WIDTH=6% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>1</B></FONT></FONT></FONT></P>
+				</TD>
+				<TD WIDTH=6% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>2</B></FONT></FONT></FONT></P>
+				</TD>
+				<TD WIDTH=6% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>3</B></FONT></FONT></FONT></P>
+				</TD>
+				<TD WIDTH=6% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>4</B></FONT></FONT></FONT></P>
+				</TD>
+				<TD WIDTH=6% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>5</B></FONT></FONT></FONT></P>
+				</TD>
+				<TD WIDTH=6% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>6</B></FONT></FONT></FONT></P>
+				</TD>
+				<TD WIDTH=6% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>7</B></FONT></FONT></FONT></P>
+				</TD>
+				<TD WIDTH=6% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>8</B></FONT></FONT></FONT></P>
+				</TD>
+				<TD WIDTH=6% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>9</B></FONT></FONT></FONT></P>
+				</TD>
+				<TD WIDTH=5% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>10</B></FONT></FONT></FONT></P>
+				</TD>
+			</TR>
+		</THEAD>
+		<TBODY>
+			<TR VALIGN=TOP>
+				<TD WIDTH=40% HEIGHT=9 SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+				<TD WIDTH=6% SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+				<TD WIDTH=6% SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+				<TD WIDTH=6% SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+				<TD WIDTH=6% SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+				<TD WIDTH=6% SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+				<TD WIDTH=6% SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+				<TD WIDTH=6% SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+				<TD WIDTH=6% SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+				<TD WIDTH=6% SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+				<TD WIDTH=5% SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+			</TR>
+		</TBODY>
+	</TABLE>
+</CENTER>
+<P CLASS="western" ALIGN=LEFT STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" ALIGN=LEFT STYLE="margin-bottom: 0in"><BR>
+</P>
+<CENTER>
+	<TABLE WIDTH=95% BORDER=1 BORDERCOLOR="#c0c0c0" CELLPADDING=4 CELLSPACING=0>
+		<COL WIDTH=104*>
+		<COL WIDTH=16*>
+		<COL WIDTH=15*>
+		<COL WIDTH=15*>
+		<COL WIDTH=15*>
+		<COL WIDTH=15*>
+		<COL WIDTH=15*>
+		<COL WIDTH=15*>
+		<COL WIDTH=15*>
+		<COL WIDTH=15*>
+		<COL WIDTH=13*>
+		<THEAD>
+			<TR VALIGN=TOP>
+				<TD WIDTH=40% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>Claridad
+					de las opciones:</B></FONT></FONT></FONT></P>
+				</TD>
+				<TD WIDTH=6% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>1</B></FONT></FONT></FONT></P>
+				</TD>
+				<TD WIDTH=6% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>2</B></FONT></FONT></FONT></P>
+				</TD>
+				<TD WIDTH=6% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>3</B></FONT></FONT></FONT></P>
+				</TD>
+				<TD WIDTH=6% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>4</B></FONT></FONT></FONT></P>
+				</TD>
+				<TD WIDTH=6% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>5</B></FONT></FONT></FONT></P>
+				</TD>
+				<TD WIDTH=6% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>6</B></FONT></FONT></FONT></P>
+				</TD>
+				<TD WIDTH=6% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>7</B></FONT></FONT></FONT></P>
+				</TD>
+				<TD WIDTH=6% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>8</B></FONT></FONT></FONT></P>
+				</TD>
+				<TD WIDTH=6% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>9</B></FONT></FONT></FONT></P>
+				</TD>
+				<TD WIDTH=5% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>10</B></FONT></FONT></FONT></P>
+				</TD>
+			</TR>
+		</THEAD>
+		<TBODY>
+			<TR VALIGN=TOP>
+				<TD WIDTH=40% HEIGHT=9 SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+				<TD WIDTH=6% SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+				<TD WIDTH=6% SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+				<TD WIDTH=6% SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+				<TD WIDTH=6% SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+				<TD WIDTH=6% SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+				<TD WIDTH=6% SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+				<TD WIDTH=6% SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+				<TD WIDTH=6% SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+				<TD WIDTH=6% SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+				<TD WIDTH=5% SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+			</TR>
+		</TBODY>
+	</TABLE>
+</CENTER>
+<P CLASS="western" ALIGN=LEFT STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" ALIGN=LEFT STYLE="margin-bottom: 0in"><BR>
+</P>
+<CENTER>
+	<TABLE WIDTH=95% BORDER=1 BORDERCOLOR="#c0c0c0" CELLPADDING=4 CELLSPACING=0>
+		<COL WIDTH=104*>
+		<COL WIDTH=152*>
+		<THEAD>
+			<TR VALIGN=TOP>
+				<TD WIDTH=40% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER><B><SPAN STYLE="text-decoration: none"><SPAN STYLE="font-style: normal"><FONT SIZE=2><FONT FACE="Times, serif"><FONT COLOR="#000000">&iquest;Alg&uacute;n
+					comentario?</FONT></FONT></FONT></SPAN></SPAN></B></P>
+				</TD>
+				<TD WIDTH=60% BGCOLOR="#e6e6ff" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER><BR>
+					</P>
+				</TD>
+			</TR>
+		</THEAD>
+	</TABLE>
+</CENTER>
+<P CLASS="western" ALIGN=LEFT STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" ALIGN=LEFT STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western"><BR><BR>
+</P>
+<P ALIGN=LEFT STYLE="margin-top: 0.17in; page-break-after: avoid"><FONT FACE="Luxi Sans, sans-serif"><FONT SIZE=4>6.
+Conclusiones</FONT></FONT></P>
+<P CLASS="western">	</P>
+<P CLASS="western">	Si dispone de algo m&aacute;s de tiempo, siga
+navegando por la aplicaci&oacute;n, y termine de probar las diversas
+opciones que tiene para formarse una visi&oacute;n completa de la
+misma.</P>
+<P CLASS="western"><BR><BR>
+</P>
+<P CLASS="western">	Conteste, a modo de resumen global de la
+aplicaci&oacute;n, las siguiente preguntas:</P>
+<P CLASS="western"><BR><BR>
+</P>
+<P CLASS="western"><BR><BR>
+</P>
+<P CLASS="western" ALIGN=LEFT STYLE="margin-bottom: 0in"><BR>
+</P>
+<CENTER>
+	<TABLE WIDTH=95% BORDER=1 BORDERCOLOR="#c0c0c0" CELLPADDING=4 CELLSPACING=0>
+		<COL WIDTH=104*>
+		<COL WIDTH=16*>
+		<COL WIDTH=15*>
+		<COL WIDTH=15*>
+		<COL WIDTH=15*>
+		<COL WIDTH=15*>
+		<COL WIDTH=15*>
+		<COL WIDTH=15*>
+		<COL WIDTH=15*>
+		<COL WIDTH=15*>
+		<COL WIDTH=13*>
+		<THEAD>
+			<TR VALIGN=TOP>
+				<TD WIDTH=40% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>	Presentaci&oacute;n
+					de la pantalla:</B></FONT></FONT></FONT></P>
+				</TD>
+				<TD WIDTH=6% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>1</B></FONT></FONT></FONT></P>
+				</TD>
+				<TD WIDTH=6% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>2</B></FONT></FONT></FONT></P>
+				</TD>
+				<TD WIDTH=6% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>3</B></FONT></FONT></FONT></P>
+				</TD>
+				<TD WIDTH=6% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>4</B></FONT></FONT></FONT></P>
+				</TD>
+				<TD WIDTH=6% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>5</B></FONT></FONT></FONT></P>
+				</TD>
+				<TD WIDTH=6% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>6</B></FONT></FONT></FONT></P>
+				</TD>
+				<TD WIDTH=6% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>7</B></FONT></FONT></FONT></P>
+				</TD>
+				<TD WIDTH=6% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>8</B></FONT></FONT></FONT></P>
+				</TD>
+				<TD WIDTH=6% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>9</B></FONT></FONT></FONT></P>
+				</TD>
+				<TD WIDTH=5% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>10</B></FONT></FONT></FONT></P>
+				</TD>
+			</TR>
+		</THEAD>
+		<TBODY>
+			<TR VALIGN=TOP>
+				<TD WIDTH=40% HEIGHT=9 SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+				<TD WIDTH=6% SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+				<TD WIDTH=6% SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+				<TD WIDTH=6% SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+				<TD WIDTH=6% SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+				<TD WIDTH=6% SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+				<TD WIDTH=6% SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+				<TD WIDTH=6% SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+				<TD WIDTH=6% SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+				<TD WIDTH=6% SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+				<TD WIDTH=5% SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+			</TR>
+		</TBODY>
+	</TABLE>
+</CENTER>
+<P CLASS="western" ALIGN=LEFT STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" ALIGN=LEFT STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" ALIGN=LEFT STYLE="margin-bottom: 0in"><BR>
+</P>
+<CENTER>
+	<TABLE WIDTH=95% BORDER=1 BORDERCOLOR="#c0c0c0" CELLPADDING=4 CELLSPACING=0>
+		<COL WIDTH=104*>
+		<COL WIDTH=16*>
+		<COL WIDTH=15*>
+		<COL WIDTH=15*>
+		<COL WIDTH=15*>
+		<COL WIDTH=15*>
+		<COL WIDTH=15*>
+		<COL WIDTH=15*>
+		<COL WIDTH=15*>
+		<COL WIDTH=15*>
+		<COL WIDTH=13*>
+		<THEAD>
+			<TR VALIGN=TOP>
+				<TD WIDTH=40% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>Facilidad
+					de uso:</B></FONT></FONT></FONT></P>
+				</TD>
+				<TD WIDTH=6% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>1</B></FONT></FONT></FONT></P>
+				</TD>
+				<TD WIDTH=6% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>2</B></FONT></FONT></FONT></P>
+				</TD>
+				<TD WIDTH=6% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>3</B></FONT></FONT></FONT></P>
+				</TD>
+				<TD WIDTH=6% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>4</B></FONT></FONT></FONT></P>
+				</TD>
+				<TD WIDTH=6% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>5</B></FONT></FONT></FONT></P>
+				</TD>
+				<TD WIDTH=6% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>6</B></FONT></FONT></FONT></P>
+				</TD>
+				<TD WIDTH=6% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>7</B></FONT></FONT></FONT></P>
+				</TD>
+				<TD WIDTH=6% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>8</B></FONT></FONT></FONT></P>
+				</TD>
+				<TD WIDTH=6% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>9</B></FONT></FONT></FONT></P>
+				</TD>
+				<TD WIDTH=5% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>10</B></FONT></FONT></FONT></P>
+				</TD>
+			</TR>
+		</THEAD>
+		<TBODY>
+			<TR VALIGN=TOP>
+				<TD WIDTH=40% HEIGHT=9 SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+				<TD WIDTH=6% SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+				<TD WIDTH=6% SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+				<TD WIDTH=6% SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+				<TD WIDTH=6% SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+				<TD WIDTH=6% SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+				<TD WIDTH=6% SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+				<TD WIDTH=6% SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+				<TD WIDTH=6% SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+				<TD WIDTH=6% SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+				<TD WIDTH=5% SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+			</TR>
+		</TBODY>
+	</TABLE>
+</CENTER>
+<P CLASS="western" ALIGN=LEFT STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" ALIGN=LEFT STYLE="margin-bottom: 0in"><BR>
+</P>
+<CENTER>
+	<TABLE WIDTH=95% BORDER=1 BORDERCOLOR="#c0c0c0" CELLPADDING=4 CELLSPACING=0>
+		<COL WIDTH=104*>
+		<COL WIDTH=16*>
+		<COL WIDTH=15*>
+		<COL WIDTH=15*>
+		<COL WIDTH=15*>
+		<COL WIDTH=15*>
+		<COL WIDTH=15*>
+		<COL WIDTH=15*>
+		<COL WIDTH=15*>
+		<COL WIDTH=15*>
+		<COL WIDTH=13*>
+		<THEAD>
+			<TR VALIGN=TOP>
+				<TD WIDTH=40% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>Claridad
+					de las opciones:</B></FONT></FONT></FONT></P>
+				</TD>
+				<TD WIDTH=6% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>1</B></FONT></FONT></FONT></P>
+				</TD>
+				<TD WIDTH=6% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>2</B></FONT></FONT></FONT></P>
+				</TD>
+				<TD WIDTH=6% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>3</B></FONT></FONT></FONT></P>
+				</TD>
+				<TD WIDTH=6% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>4</B></FONT></FONT></FONT></P>
+				</TD>
+				<TD WIDTH=6% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>5</B></FONT></FONT></FONT></P>
+				</TD>
+				<TD WIDTH=6% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>6</B></FONT></FONT></FONT></P>
+				</TD>
+				<TD WIDTH=6% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>7</B></FONT></FONT></FONT></P>
+				</TD>
+				<TD WIDTH=6% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>8</B></FONT></FONT></FONT></P>
+				</TD>
+				<TD WIDTH=6% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>9</B></FONT></FONT></FONT></P>
+				</TD>
+				<TD WIDTH=5% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>10</B></FONT></FONT></FONT></P>
+				</TD>
+			</TR>
+		</THEAD>
+		<TBODY>
+			<TR VALIGN=TOP>
+				<TD WIDTH=40% HEIGHT=9 SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+				<TD WIDTH=6% SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+				<TD WIDTH=6% SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+				<TD WIDTH=6% SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+				<TD WIDTH=6% SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+				<TD WIDTH=6% SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+				<TD WIDTH=6% SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+				<TD WIDTH=6% SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+				<TD WIDTH=6% SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+				<TD WIDTH=6% SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+				<TD WIDTH=5% SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+			</TR>
+		</TBODY>
+	</TABLE>
+</CENTER>
+<P CLASS="western" ALIGN=LEFT STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" ALIGN=LEFT STYLE="margin-bottom: 0in"><BR>
+</P>
+<CENTER>
+	<TABLE WIDTH=95% BORDER=1 BORDERCOLOR="#cccccc" CELLPADDING=4 CELLSPACING=0 RULES=COLS>
+		<COL WIDTH=104*>
+		<COL WIDTH=152*>
+		<THEAD>
+			<TR VALIGN=TOP>
+				<TD WIDTH=40% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER><B><SPAN STYLE="text-decoration: none"><SPAN STYLE="font-style: normal"><FONT SIZE=2><FONT FACE="Times, serif"><FONT COLOR="#000000">&iquest;Puntos
+					a destacar?</FONT></FONT></FONT></SPAN></SPAN></B></P>
+				</TD>
+				<TD ROWSPAN=2 WIDTH=60% BGCOLOR="#e6e6ff" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER><BR>
+					</P>
+					<P CLASS="western" ALIGN=CENTER><BR>
+					</P>
+					<P CLASS="western" ALIGN=CENTER><BR>
+					</P>
+					<P CLASS="western" ALIGN=CENTER><BR>
+					</P>
+				</TD>
+			</TR>
+			<TR>
+				<TD WIDTH=40% VALIGN=TOP SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER><BR>
+					</P>
+				</TD>
+			</TR>
+		</THEAD>
+	</TABLE>
+</CENTER>
+<P CLASS="western" ALIGN=LEFT STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" ALIGN=LEFT STYLE="margin-bottom: 0in"><BR>
+</P>
+<CENTER>
+	<TABLE WIDTH=95% BORDER=1 BORDERCOLOR="#cccccc" CELLPADDING=4 CELLSPACING=0 RULES=COLS>
+		<COL WIDTH=104*>
+		<COL WIDTH=152*>
+		<THEAD>
+			<TR VALIGN=TOP>
+				<TD WIDTH=40% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER><B><SPAN STYLE="text-decoration: none"><SPAN STYLE="font-style: normal"><FONT SIZE=2><FONT FACE="Times, serif"><FONT COLOR="#000000">&iquest;Puntos
+					a mejorar?</FONT></FONT></FONT></SPAN></SPAN></B></P>
+				</TD>
+				<TD ROWSPAN=2 WIDTH=60% BGCOLOR="#e6e6ff" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER><BR>
+					</P>
+					<P CLASS="western" ALIGN=CENTER><BR>
+					</P>
+					<P CLASS="western" ALIGN=CENTER><BR>
+					</P>
+					<P CLASS="western" ALIGN=CENTER><BR>
+					</P>
+				</TD>
+			</TR>
+			<TR>
+				<TD WIDTH=40% VALIGN=TOP SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER><BR>
+					</P>
+				</TD>
+			</TR>
+		</THEAD>
+	</TABLE>
+</CENTER>
+<P CLASS="western" ALIGN=LEFT STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" ALIGN=LEFT STYLE="margin-bottom: 0in"><BR>
+</P>
+<CENTER>
+	<TABLE WIDTH=95% BORDER=1 BORDERCOLOR="#cccccc" CELLPADDING=4 CELLSPACING=0 RULES=COLS>
+		<COL WIDTH=104*>
+		<COL WIDTH=152*>
+		<THEAD>
+			<TR VALIGN=TOP>
+				<TD WIDTH=40% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER><B><SPAN STYLE="text-decoration: none"><SPAN STYLE="font-style: normal"><FONT SIZE=2><FONT FACE="Times, serif"><FONT COLOR="#000000">&iquest;Que
+					le falta?</FONT></FONT></FONT></SPAN></SPAN></B></P>
+				</TD>
+				<TD ROWSPAN=2 WIDTH=60% BGCOLOR="#e6e6ff" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER><BR>
+					</P>
+					<P CLASS="western" ALIGN=CENTER><BR>
+					</P>
+					<P CLASS="western" ALIGN=CENTER><BR>
+					</P>
+					<P CLASS="western" ALIGN=CENTER><BR>
+					</P>
+				</TD>
+			</TR>
+			<TR>
+				<TD WIDTH=40% VALIGN=TOP SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER><BR>
+					</P>
+				</TD>
+			</TR>
+		</THEAD>
+	</TABLE>
+</CENTER>
+<P CLASS="western" ALIGN=LEFT STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" ALIGN=LEFT STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" ALIGN=LEFT STYLE="margin-bottom: 0in"><BR>
+</P>
+<CENTER>
+	<TABLE WIDTH=95% BORDER=1 BORDERCOLOR="#cccccc" CELLPADDING=4 CELLSPACING=0 RULES=COLS>
+		<COL WIDTH=104*>
+		<COL WIDTH=152*>
+		<THEAD>
+			<TR VALIGN=TOP>
+				<TD WIDTH=40% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER><B><SPAN STYLE="text-decoration: none"><SPAN STYLE="font-style: normal"><FONT SIZE=2><FONT FACE="Times, serif"><FONT COLOR="#000000">&iquest;Qu&eacute;
+					le sobra?</FONT></FONT></FONT></SPAN></SPAN></B></P>
+				</TD>
+				<TD ROWSPAN=2 WIDTH=60% BGCOLOR="#e6e6ff" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER><BR>
+					</P>
+					<P CLASS="western" ALIGN=CENTER><BR>
+					</P>
+					<P CLASS="western" ALIGN=CENTER><BR>
+					</P>
+					<P CLASS="western" ALIGN=CENTER><BR>
+					</P>
+				</TD>
+			</TR>
+			<TR>
+				<TD WIDTH=40% VALIGN=TOP SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER><BR>
+					</P>
+				</TD>
+			</TR>
+		</THEAD>
+	</TABLE>
+</CENTER>
+<P CLASS="western" ALIGN=LEFT STYLE="margin-bottom: 0in"><BR>
+</P>
+<CENTER>
+	<TABLE WIDTH=95% BORDER=1 BORDERCOLOR="#c0c0c0" CELLPADDING=4 CELLSPACING=0>
+		<COL WIDTH=104*>
+		<COL WIDTH=16*>
+		<COL WIDTH=15*>
+		<COL WIDTH=15*>
+		<COL WIDTH=15*>
+		<COL WIDTH=15*>
+		<COL WIDTH=15*>
+		<COL WIDTH=15*>
+		<COL WIDTH=15*>
+		<COL WIDTH=15*>
+		<COL WIDTH=13*>
+		<THEAD>
+			<TR VALIGN=TOP>
+				<TD WIDTH=40% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>	Nota
+					media final:</B></FONT></FONT></FONT></P>
+				</TD>
+				<TD WIDTH=6% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>1</B></FONT></FONT></FONT></P>
+				</TD>
+				<TD WIDTH=6% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>2</B></FONT></FONT></FONT></P>
+				</TD>
+				<TD WIDTH=6% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>3</B></FONT></FONT></FONT></P>
+				</TD>
+				<TD WIDTH=6% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>4</B></FONT></FONT></FONT></P>
+				</TD>
+				<TD WIDTH=6% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>5</B></FONT></FONT></FONT></P>
+				</TD>
+				<TD WIDTH=6% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>6</B></FONT></FONT></FONT></P>
+				</TD>
+				<TD WIDTH=6% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>7</B></FONT></FONT></FONT></P>
+				</TD>
+				<TD WIDTH=6% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>8</B></FONT></FONT></FONT></P>
+				</TD>
+				<TD WIDTH=6% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>9</B></FONT></FONT></FONT></P>
+				</TD>
+				<TD WIDTH=5% BGCOLOR="#e6e6ff" SDVAL="0" SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<FONT COLOR="#000000"><FONT FACE="Times, serif"><FONT SIZE=2><B>10</B></FONT></FONT></FONT></P>
+				</TD>
+			</TR>
+		</THEAD>
+		<TBODY>
+			<TR VALIGN=TOP>
+				<TD WIDTH=40% HEIGHT=9 SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+				<TD WIDTH=6% SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+				<TD WIDTH=6% SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+				<TD WIDTH=6% SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+				<TD WIDTH=6% SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+				<TD WIDTH=6% SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+				<TD WIDTH=6% SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+				<TD WIDTH=6% SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+				<TD WIDTH=6% SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+				<TD WIDTH=6% SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+				<TD WIDTH=5% SDNUM="1033;1033;@">
+					<P CLASS="western" ALIGN=CENTER STYLE="font-style: normal; text-decoration: none">
+					<BR>
+					</P>
+				</TD>
+			</TR>
+		</TBODY>
+	</TABLE>
+</CENTER>
+<P CLASS="western" ALIGN=LEFT STYLE="margin-bottom: 0in"><BR>
+</P>
+</BODY>
+</HTML>

@@ -1,0 +1,19 @@
+<?php
+	require_once ( "phplot/phplot.php" );
+	session_start(); 
+	
+	$graph = new PHPlot();
+	$graph->SetDataType( "text-data" );
+	$graph->SetPlotType("bar");
+	$graph->SetDataValues($_SESSION['datos_stats']);
+	$graph->SetTitle("Estado de las incidencias");
+	$graph->SetXTitle('Meses');
+	$graph->SetYTitle('Incidencias');
+	$graph->SetLegend("Resuelta");
+	$graph->SetLegend("Interrumpida");
+	$graph->SetLegend("En curso");
+	$graph->SetLegend("Desestimada");
+	$graph->DrawGraph();
+	$graph->PrintImage();
+
+?>

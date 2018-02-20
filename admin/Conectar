@@ -1,0 +1,24 @@
+Hola,
+
+La URL es:
+http://gea.tsc.uc3m.es
+
+Ya está activa.
+Para publicar información:
+desde Windows:
+\PUCK.TSC.UC3M.ES\webs
+Desde Mac, en Finder, ir al menu IR- a servidor, e introducir:
+smb://puck.tsc.uc3m.es/webs
+
+Directorio gea.
+
+Tienen permiso de lectura y escritura Jose Luis Vázquez Roy, Luis Inclan y tu.
+El usuario del servidor web tiene permiso de lectura
+
+Ningún otro usuario puede acceder a esa zona, salvo que sea vía página web.
+
+Un saludo
+
+H.
+
+

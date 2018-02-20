@@ -1,0 +1,16 @@
+- Configuracion debe devolver un objeto ConfSisifo, no implementar
+los diversos métodos del mismo.
+
+- El diagrama de clases de SisifoIncidencia debe usar el paquete
+singleton.
+
+- El paquete autenticar debe usar la clase ConfLDAP, de forma similar
+a como lo hace ConfPGP.
+
+
+		¿Necesito devolver dos valores? <- ¿Iterator?
+- Un iterator para mostrar los tipos de roles de usuario.
+
+- Un iterator para mostrar los tipos de incidencia hardware.
+
+- Un iterator para mostrar los tipos de incidencia software.
